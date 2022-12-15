@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mall-coupon
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.10.131:8848
+        file-extension: yml
+        namespace: f3b2f998-3f9c-4eac-ab51-ff490c36135f
