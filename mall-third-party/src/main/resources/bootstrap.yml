@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: mall-third-party
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.10.131:8848
+        namespace: e172f9d0-d5d1-4679-bd63-2743fbda67ac
+        file-extension: yml
+        extension-configs:
+          - data-id: oss.yml
+            group: DEFAULT_GROUP
+            refresh: true

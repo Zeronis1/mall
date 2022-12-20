@@ -8,9 +8,9 @@
 
 package com.abi.bees.common.utils;
 
-import com.abi.bees.common.group.AliyunGroup;
-import com.abi.bees.common.group.QcloudGroup;
-import com.abi.bees.common.group.QiniuGroup;
+import com.abi.bees.common.valid.group.AliyunGroup;
+import com.abi.bees.common.valid.group.QcloudGroup;
+import com.abi.bees.common.valid.group.QiniuGroup;
 
 import java.util.Optional;
 import java.util.stream.Stream;
