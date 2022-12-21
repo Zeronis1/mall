@@ -3,7 +3,7 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://192.168.10.131:3306/mall_wms
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: mall-ware
   cloud:
@@ -11,7 +11,7 @@ spring:
       discovery:
         server-addr: 192.168.10.131:8848
 mybatis-plus:
-  mapper-locations: class:/mapper/**/*.xml
+  mapper-locations: classpath:/mapper/**/*.xml
   global-config:
     db-config:
       id-type: auto

@@ -39,10 +39,5 @@ spring:
           filters:
             - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
 
-
-
-
-
-
 server:
   port: 88
