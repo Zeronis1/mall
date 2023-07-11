@@ -12,6 +12,12 @@
     <name>mall-product</name>
     <description>商品服务</description>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.abi.bees</groupId>
+            <artifactId>mall-common</artifactId>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
