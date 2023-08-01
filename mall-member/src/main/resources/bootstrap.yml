@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mall-member
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.27.101:8848
+        file-extension: yml
+        namespace: d3699c58-7540-4178-baaa-8e6970e6278c

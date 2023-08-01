@@ -13,6 +13,7 @@
     <description>优惠劵服务</description>
 
     <dependencies>
+        <!--common-->
         <dependency>
             <groupId>com.abi.bees</groupId>
             <artifactId>mall-common</artifactId>
