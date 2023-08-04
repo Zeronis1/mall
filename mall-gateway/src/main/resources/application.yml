@@ -16,12 +16,20 @@ spring:
 #          uri: https://www.github.com
 #          predicates:
 #            - Query=url,github
+
          - id: product_route
            uri: lb://mall-product
            predicates:
              - Path=/api/product/**
            filters:
              - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+         - id: third_party_route
+           uri: lb://mall-third-party
+           predicates:
+             - Path=/api/third-party/**
+           filters:
+             - RewritePath=/api/third-party/(?<segment>.*),/$\{segment}
 
          - id: admin_route
            uri: lb://renren-fast
