@@ -10,9 +10,9 @@ package com.abi.bees.common.utils;
 
 
 
-import com.abi.bees.common.valid.AliyunGroup;
-import com.abi.bees.common.valid.QcloudGroup;
-import com.abi.bees.common.valid.QiniuGroup;
+import com.abi.bees.common.valid.group.AliyunGroup;
+import com.abi.bees.common.valid.group.QcloudGroup;
+import com.abi.bees.common.valid.group.QiniuGroup;
 
 import java.util.Optional;
 import java.util.stream.Stream;
